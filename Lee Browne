@@ -1,0 +1,19 @@
+import random
+
+
+def section(num):
+
+  numLen = len(range(num))
+  sections = []
+  while len(sections) < num:
+    randint = random.randint(1,num)
+    if randint not in sections:
+      sections.append(randint)
+    else:
+      randint
+    numLen -=1 
+  
+    print(sections)
+
+
+    
